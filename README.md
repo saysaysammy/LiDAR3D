@@ -21,10 +21,12 @@ Built upon the **SFA3D** detection framework, the application integrates model i
 
 ## Screenshots
 
-Main Interface
+**Main Interface**
+
 ![LiDAR3D Main Interface](assets/main-interface.png)
 
-3D Detection Results
+**3D Detection Results**
+
 ![3D Detection Results](assets/detection-results.png)
 
 ## Technology Stack
@@ -65,7 +67,7 @@ the data and comply with the dataset's applicable terms.
 
 ## Installation
 
-Installation instructions depend on the Python, PyTorch, CUDA,
+Installation instructions depend on the Python, PyTorch,
 and model-checkpoint versions used by the project.
 
 See the project documentation for the tested environment,
@@ -126,3 +128,25 @@ datasets, and other dependencies may differ.
 
 Thanks to the authors of SFA3D and the contributors to the
 KITTI dataset.
+
+## Folder structure
+```
+LiDAR3D/
+│
+├── main.py
+├── requirements.txt
+├── README.md
+│
+├── Resources/
+│ ├── LiDAR3D.ico
+│ ├── LiDAR.ico
+│ ├── evaluate.py
+│ ├── lidar.py
+│ ├── ground_truth.py
+│ ├── viewer.py
+│ └── export_vtk.py
+│
+├── Output/
+└── Model/
+  └── SFA3D/ 
+```
