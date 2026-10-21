@@ -20,10 +20,9 @@ Built upon the **SFA3D** detection framework, the application integrates model i
 
 Add screenshots of the actual application here.
 
-<!-- Example:
+!Example:
 ![LiDAR3D Main Interface](assets/main-interface.png)
 ![3D Detection Results](assets/detection-results.png)
--->
 
 ## Technology Stack
 
