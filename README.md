@@ -2,6 +2,9 @@
 # LiDAR3D
 ### 3D Object Detection and Localization Using LiDAR
 
+![Python](https://img.shields.io/badge/Python-3.8.10-3776AB?style=flat&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-1.5.0-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+
 LiDAR3D is a Windows desktop application for LiDAR-based 3D object detection, point-cloud visualization, and localization.
 
 Built upon the **SFA3D** detection framework, the application integrates model inference with a graphical user interface and tools for inspecting and evaluating 3D detection results.
